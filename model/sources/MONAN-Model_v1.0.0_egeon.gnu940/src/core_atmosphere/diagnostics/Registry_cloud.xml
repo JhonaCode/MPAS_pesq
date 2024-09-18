@@ -1,0 +1,26 @@
+<!-- ******************************* -->
+<!-- Cloud diagnostics               -->
+<!-- ******************************* -->
+
+<var_struct name="diag" time_levs="1">
+
+        <var name="cldfrac_low_UPP"         type="real"     dimensions="nCells Time" units="unitless"
+             description="Cloud fraction at low levels using UPP method"/>
+
+        <var name="cldfrac_mid_UPP"         type="real"     dimensions="nCells Time" units="unitless"
+             description="Cloud fraction at mid levels using UPP method"/>
+
+        <var name="cldfrac_high_UPP"        type="real"     dimensions="nCells Time" units="unitless"
+             description="Cloud fraction at high levels using UPP method"/>
+
+        <var name="cldfrac_tot_UPP"         type="real"     dimensions="nCells Time" units="unitless"
+             description="Total cloud fraction using UPP column max method"/>
+
+        <var name="cldfrac_isobaric" type="real" dimensions="t_iso_levels nCells Time" units="%" 
+             description="Cloud fraction interpolated to isobaric surfaces defined in t_iso_levels"/>
+
+        <var name="nsteps_accum_cloud"     type="real"     dimensions="nCells Time" units="unitless"
+             description="number of accumulated time-steps cloud"/>
+
+</var_struct>
+

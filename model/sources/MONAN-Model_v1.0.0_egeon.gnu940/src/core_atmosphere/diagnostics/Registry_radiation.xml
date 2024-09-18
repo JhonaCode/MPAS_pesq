@@ -1,0 +1,14 @@
+<!-- ******************************* -->
+<!-- Radiation diagnostics               -->
+<!-- ******************************* -->
+
+<var_struct name="diag" time_levs="1">
+
+        <var name="rthratenlw_isobaric" type="real" dimensions="t_iso_levels nCells Time" units="K s^{-1}"
+             description="Time Mean tendency of potential temperature due to long wave radiation interpolated to isobaric surfaces defined in t_iso_levels"/>
+
+        <var name="rthratensw_isobaric" type="real" dimensions="t_iso_levels nCells Time" units="K s^{-1}" 
+             description="Time Mean tendency of potential temperature due to short wave radiation interpolated to isobaric surfaces defined in t_iso_levels"/>
+
+</var_struct>
+

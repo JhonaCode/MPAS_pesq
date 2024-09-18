@@ -1,0 +1,33 @@
+<!-- ******************************* -->
+<!-- Begin includes from diagnostics -->
+<!-- ******************************* -->
+
+#include "Registry_template.xml"
+
+<!-- isobaric diagnostics -->
+#include "Registry_isobaric.xml"
+
+<!-- cloud diagnostics -->
+#include "Registry_cloud.xml"
+
+<!-- cloud diagnostics -->
+#include "Registry_pbl.xml"
+
+<!-- radiation diagnostics -->
+#include "Registry_radiation.xml"
+
+<!-- sfclayer diagnostics -->
+#include "Registry_sfclayer.xml"
+
+<!-- convective diagnostics -->
+#include "Registry_convective.xml"
+
+<!-- PV diagnostics -->
+#include "Registry_pv.xml"
+
+<!-- soundings -->
+#include "Registry_soundings.xml"
+
+<!-- ******************************* -->
+<!-- End includes from diagnostics -->
+<!-- ******************************* -->

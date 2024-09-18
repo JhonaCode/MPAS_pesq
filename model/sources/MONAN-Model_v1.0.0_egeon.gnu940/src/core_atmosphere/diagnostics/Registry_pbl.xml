@@ -1,0 +1,26 @@
+<!-- ******************************* -->
+<!-- Cloud diagnostics               -->
+<!-- ******************************* -->
+
+<var_struct name="diag" time_levs="1">
+
+        <var name="h_pbl"       type="real"     dimensions="nCells Time" units="m"
+             description="Time Mean Planetary Boundary Layer (PBL) height"/>
+
+        <var name="qke_isobaric"     type="real" dimensions="t_iso_levels nCells Time" units="m^{2} s^{-2}"
+             description="Time Mean twice turbulent kinetic energy"/>
+
+        <var name="kzh_isobaric"     type="real" dimensions="t_iso_levels nCells Time" units="m^{2} s^{-1}"
+             description="Time Mean vertical diffusion coefficient of potential temperature"/>
+
+        <var name="kzm_isobaric" type="real" dimensions="t_iso_levels nCells Time" units="m^{2} s^{-1}"
+             description="Time Mean vertical diffusion coefficient of mommentum"/>
+
+        <var name="kzq_isobaric" type="real" dimensions="t_iso_levels nCells Time" units="m^{2} s^{-1}"
+             description="Time Mean vertical diffusion coefficient of water vapor and cloud condensates"/>
+
+        <var name="nsteps_accum_pbl"     type="real"     dimensions="nCells Time" units="unitless"
+             description="number of accumulated time-steps pbl"/>
+
+</var_struct>
+
